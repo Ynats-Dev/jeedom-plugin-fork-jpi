@@ -15,6 +15,6 @@ Ce plugin permettant d'utiliser facilement l'application android **JPI** sans pa
 
 # Documentation complète:
 
-[![Read the Docs](plugin_info/JPI_icon.png)](https://jeedom-plugins-extra.github.io/plugin-jpi)
+[![Read the Docs](plugin_info/JPI_icon.png)](https://github.com/Ynats-Dev/jeedom-jpi)
 
 
