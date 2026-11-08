@@ -133,7 +133,7 @@ class JPI extends eqLogic
         self::getjpiVoice($ip, $port, $proto);
     }
 
-    public function cron($_eqlogic_id = null)
+    public static function cron($_eqlogic_id = null)
     {
         $frequence = config::byKey('frequence', 'JPI');
         if ($frequence == '1min') {
@@ -141,7 +141,7 @@ class JPI extends eqLogic
         }
     }
 
-    public function cron5($_eqlogic_id = null)
+    public static function cron5($_eqlogic_id = null)
     {
         $frequence = config::byKey('frequence', 'JPI');
         if ($frequence == '5min') {
@@ -149,7 +149,7 @@ class JPI extends eqLogic
         }
     }
 
-    public function cron15($_eqlogic_id = null)
+    public static function cron15($_eqlogic_id = null)
     {
         $frequence = config::byKey('frequence', 'JPI');
         if ($frequence == '15min') {
@@ -157,7 +157,7 @@ class JPI extends eqLogic
         }
     }
 
-    public function cron30($_eqlogic_id = null)
+    public static function cron30($_eqlogic_id = null)
     {
         $frequence = config::byKey('frequence', 'JPI');
         if ($frequence == '30min') {
@@ -165,7 +165,7 @@ class JPI extends eqLogic
         }
     }
 
-    public function cronHourly($_eqlogic_id = null)
+    public static function cronHourly($_eqlogic_id = null)
     {
         $frequence = config::byKey('frequence', 'JPI');
         if ($frequence == '60min') {
@@ -173,7 +173,7 @@ class JPI extends eqLogic
         }
     }
 
-    public function cronDaily($_eqlogic_id = null)
+    public static function cronDaily($_eqlogic_id = null)
     {
         self::executeBackup();
         self::executeCheckUpdate();
