@@ -37,7 +37,7 @@ die();
             </select>
         </div>
       <label class="col-lg-3 text-center control-label">{{Lien PAW}}</label>
-     <div class="col-lg-3 text-center"><img src="plugins/JPI/resources/PAW.png" height="200" width="200" /></div>
+     <div class="col-lg-3 text-center"><img src="plugins/JPI/desktop/img/PAW.png" height="200" width="200" /></div>
     </div>
 <div class="row">
     <br>
@@ -63,7 +63,7 @@ die();
             </select>
         </div>
         <label class="col-lg-3 text-center control-label">{{Lien JPI}}</label>
-    <div class="col-lg-3 text-center"><img src="plugins/JPI/resources/APK.png" height="200" width="200" /></div>
+    <div class="col-lg-3 text-center"><img src="plugins/JPI/desktop/img/APK.png" height="200" width="200" /></div>
     </div>
     </fieldset>
 </form>
