@@ -1,0 +1,6 @@
+.DS_Store
+._*
+data/*
+!data/.gitkeep
+core/config/*.json
+!core/config/.json
